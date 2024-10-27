@@ -1,5 +1,4 @@
 import "../css-styles/contact.css"
-import Link from 'next/link'
 function Contact() {
     return (
         <section className='contact' id='contact'>

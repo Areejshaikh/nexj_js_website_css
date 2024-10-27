@@ -14,7 +14,7 @@ function Hero() {
 
         <section className="hero" id="hero">
             <div className="hero-content">
-                <h1>Hi, I'm <span>Areej Zaheer</span></h1>
+                <h1>Hi I&apos;m <span>Areej Zaheer</span></h1>
 
                 <div className="text-animate">
                     <h3>Frontend Developer</h3>
@@ -25,7 +25,7 @@ function Hero() {
 
                 <div className="btn-box">
                     <Link href={"#"} className="btn">Hire me</Link>
-                    <Link href={"#"} className="btn">Let's Talk</Link>
+                    <Link href={"#"} className="btn">Let &apos;s Talk</Link>
                 </div>
 
             </div>
