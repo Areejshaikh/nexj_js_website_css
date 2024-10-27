@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    scroll-behavior: smooth;
+    outline: none;
+    font-family:  sans-serif;
+}
+:root {
+    --bg-color:#081b29;
+    --second-bg-color:#112e42;
+    --text-color:#ededed;
+    --main-color:#37a1df;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+
+.navber {
+    display: none; /* Default state */
+}
+
+.navber.active {
+    display: block; /* Show when active */
+    /* Other styles for the navbar */
+
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background:  transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 2.5rem;
+    color:var(--text-color);
+    font-weight:600
+}
+.Link {
+    font-size:1.7rem;
+    color:var(--text-color);
+    margin-left: 3.5rem;
+    font-weight: 500;
+    transition: .3s;
+}
+.navber .Link:hover{
+    color:var(--main-color)
+}
+
+/* menu-icon */ 
+#menu-icon {
+    font-size: 3.6rem;
+    color:var(--text-color);
+    cursor:pointer;
+    display: none;
+}
+
+
+
+@media (max-width:1200px) {
+    html {
+        font-size: 69%;
+    }
+}
+
+@media (max-width:991px) {
+.Link {
+    padding:0rem  4%;
+}
+section {
+    padding: 10rem 4% 2rem;
+}
+.home {
+    padding: 0 4%;
+}
+ 
+}
+
+@media (max-width:768px) {
+    .header{
+        background: var(--bg-color);
+    }
+    #menu-icon {
+        display: block;
+    }
+    .navber {
+        position: absolute;
+        top:100%;
+        left: 0;
+        width: 100%;
+        padding: 2rem 6%;
+        background:var(--bg-color);
+        box-shadow: 0.5rem 1rem rgba(0,0,0,.2);
+
+}
+    .navber .Link {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+}
