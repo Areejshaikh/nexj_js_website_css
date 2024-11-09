@@ -174,7 +174,7 @@ section {
 
 @media (max-width: 480px) {
     .hero {
-        margin-top: 4rem;
+        margin-top: 1.5rem;
     }
 
     .hero-content {
@@ -185,7 +185,7 @@ section {
         display: none;
     }
     .hero-content h1 {
-        font-size: 24px;
+        font-size: 36px;
     }
     .hero-content p {
         margin-bottom: 2rem;
@@ -198,10 +198,10 @@ section {
 
 @media (max-width: 320px) {
     .hero {
-        margin-top: 1.5rem;
+        margin-top: 3rem;
     }
     .hero-content h1 {
-        font-size: 24px;
+        font-size: 30px;
     }
     .hero-content p {
         margin-bottom: 12rem;
