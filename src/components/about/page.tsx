@@ -12,7 +12,7 @@ export default function About (){
                 width={200} 
                 height={200}
                 className="image"/>
-                <span className="circle-spin"></span>
+                {/* <span className="circle-spin"></span> */}
             </div> 
 
             <div className="about-content">

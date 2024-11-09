@@ -20,14 +20,13 @@ function Hero() {
                     <h3>Frontend Developer</h3>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit id quos vel minima ipsa omnis quia quaerat quis sint ea. Ipsa, vel nobis.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eligendi excepturi officia voluptates doloremque minima ducimus animi ut.
+                    adipisicing elit. Explicabo eligendi excepturi officia voluptates doloremque minima ducimus animi ut.
                 </p>
 
                 <div className="btn-box">
                     <Link href={"#"} className="btn">Hire me</Link>
                     <Link href={"#"} className="btn">Let &apos;s Talk</Link>
                 </div>
-
             </div>
             <div className="hero-icon">
                 <Link href={"#"} className="icons"> <FaGithub /></Link>
@@ -37,9 +36,7 @@ function Hero() {
                 
             </div>
 
-            <div className="hero-hover-image">
-            </div>
-
+     
 
         </section>
 

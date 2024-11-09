@@ -22,7 +22,7 @@ export const Header = () => {
                 <MdMenu />
             </div>
             <nav className={`navber ${isNavbarVisible ? 'active' : ''}`}>
-                <Link className="Link" id="active" href="#home" onClick={closeNavbar}>Home</Link>
+                <Link className="Link" id="active" href="#hero" onClick={closeNavbar}>Home</Link>
                 <Link className="Link" href="#about" onClick={closeNavbar}>About</Link>
                 <Link className="Link" href="#education" onClick={closeNavbar}>Education</Link>
                 <Link className="Link" href="#skills" onClick={closeNavbar}>Skills</Link>

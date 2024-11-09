@@ -10,7 +10,7 @@ function Contact() {
                         <span className='focus'></span>
                     </div>
                     <div className="input-field">
-                        <input type="text" placeholder='Email Address' required />
+                        <input type="text" placeholder='Email Contant' required />
                         <span className='focus'></span>
                     </div>
                 </div>
